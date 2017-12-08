@@ -16,6 +16,7 @@ _A website that lets a user shop._
 4. _Add ajax to cart quanity when item is added to cart_
 5. _Add page to show clicked item title description and price from all products page_
 6. _Add photos to product page using paperclip_
+6. _Add description toggle via AJAX on products page_
 
 
 
@@ -26,7 +27,7 @@ _A website that lets a user shop._
 ## Setup/Installation Requirements
 
 1. _Open terminal with git, rails, and brew installed._
-2. _Navigate to desktop and Run git clone https://github.com/DanDanilyuk/went-to-bali-mwahaha _
+2. _Navigate to desktop and Run git clone https://github.com/DanDanilyuk/went-to-bali-mwahaha __
 2. _Run cd shopping_site_
 2. _Run brew install imagemagick_
 3. _Run bundle_
