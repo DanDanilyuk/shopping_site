@@ -22,8 +22,10 @@ _A website that needs to be fixed and changed._
 2. _Run cd went-to-bali-mwahaha_
 3. _Run bundle_
 4. _Run rails s_
-5. _Navigate to http://localhost:3000/ __
-6. _Enjoy The Website_
+5. _Run rails db:create db:test:prepare_
+6. _Run rails db:reset_
+7. _Navigate to http://localhost:3000/ __
+8. _Enjoy The Website_
 
 ## Known Bugs
 
