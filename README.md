@@ -13,7 +13,9 @@ _A website that lets a user shop._
 1. _Create a new README._
 2. _Change name of folder and Databases_
 3. _Fix add-to-cart form Quanity_
-3. _Add ajax to cart quanity when item is added to cart_
+4. _Add ajax to cart quanity when item is added to cart_
+5. _Add page to show clicked item title description and price from all products page_
+
 
 ## Specs
 
