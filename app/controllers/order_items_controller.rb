@@ -1,6 +1,7 @@
 class OrderItemsController < ApplicationController
 
   def create
+    binding.pry
     @order = current_order
     @item = @order.order_items.new(item_params)
     @order.save
