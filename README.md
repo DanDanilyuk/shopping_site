@@ -8,6 +8,10 @@
 
 _A website that needs to be fixed and changed._
 
+## Improvements Made
+
+1. _Create a new README._
+
 ## Specs
 
 1. _A admin should be able to view, add and remove posts._
