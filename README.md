@@ -1,16 +1,17 @@
-# _Project fix_
+# _Shopping Site_
 
-#### _A project to fix._
+#### _Shipping site built with Ruby On Rails._
 
 #### By _Dan Danilyuk_
 
 ## Description
 
-_A website that needs to be fixed and changed._
+_A website that lets a user shop._
 
 ## Improvements Made
 
 1. _Create a new README._
+2. _Change name of folder and Databases_
 
 ## Specs
 
