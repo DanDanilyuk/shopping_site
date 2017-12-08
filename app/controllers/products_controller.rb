@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_filter :authorize, except: [:index, :show]
+  before_filter :authorize, except: [:index, :show, :toggle]
 
   def index
     @products = Product.all
@@ -12,6 +12,12 @@ class ProductsController < ApplicationController
 
   def new
     @product = Product.new
+  end
+
+  def toggle
+    respond_to do |format|
+      format.js { render 'products/toggle_description' }
+    end
   end
 
   def create
