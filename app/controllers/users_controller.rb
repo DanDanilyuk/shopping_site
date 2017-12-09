@@ -10,8 +10,13 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      flash[:alert] = "Incorrect Input(s)"
-      redirect_to sign_up_path
+      if user_params[:password].length
+        flash[:alert] = "Password too weak. Must be at least 7 Characters"
+        redirect_to sign_up_path
+      else
+        flash[:alert] = "Incorrect Input(s)"
+        redirect_to sign_up_path
+      end
     end
   end
 
