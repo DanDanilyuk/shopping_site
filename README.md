@@ -10,11 +10,17 @@ _A website that lets a user shop._
 
 ## Improvements Made
 
+### _AJAX_
 1. _Create a new README._
 2. _Change name of folder and Databases_
 3. _Users are now able to add products to their shopping cart from the index page with AJAX. The item is be added to the shopping cart and the number of items in the cart (shown in the navbar) does update._
 4. _Users are now able to click on a product and show/hide the product detail using AJAX. The product detail does include an image (using paperclip), the description, and any other fields you choose to add._
 5. _Users are now able to remove items from the shopping cart without a page reload. The "delete" link results in the item being removed from the shopping cart and the total price being updated._
+
+### _Additional Features_
+
+1. _Ensure that users can't order a negative number of items._
+
 
 
 ## Specs
