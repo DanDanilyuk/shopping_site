@@ -20,7 +20,7 @@ _A website that lets a user shop._
 ### _Additional Features_
 
 1. _Ensure that users can't order a negative number of items._
-
+2. _Add product update and delete functionality for admins._
 
 
 ## Specs
