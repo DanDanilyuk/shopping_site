@@ -22,6 +22,7 @@ _A website that lets a user shop._
 1. _Ensure that users can't order a negative number of items._
 2. _Add product update and delete functionality for admins._
 3. _Add password validations to ensure a user's password is sufficiently complex._
+4. _Add Stripe so users can pay when finalizing orders._
 
 
 ## Specs
