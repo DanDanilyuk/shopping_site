@@ -24,6 +24,8 @@ _A website that lets a user shop._
 3. _Add password validations to ensure a user's password is sufficiently complex._
 4. _Add Stripe so users can pay when finalizing orders._
 5. _Add admin links to navbar so admins can easily add, update and delete products._
+6. _Allow other than whole dollar amounts for admin product creation (for instance, 3.99)._
+
 
 
 ## Specs
